@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@nomicfoundation/hardhat-ignition": "^0.15.5",
     "@openzeppelin/contracts": "^4.9.6",
     "@sentry/react": "^8.28.0",
     "axios": "^1.7.7",
@@ -19,7 +18,7 @@
     "framer-motion": "^7.2.1",
     "fs": "^0.0.1-security",
     "ipfs-http-client": "^60.0.1",
-    "next": "^14.2.8",
+    "next": "^14.2.9",
     "next-transpile-modules": "^10.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -30,6 +29,7 @@
     "web3modal": "^1.9.12"
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^0.15.5",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "hardhat": "^2.22.10"
   },
