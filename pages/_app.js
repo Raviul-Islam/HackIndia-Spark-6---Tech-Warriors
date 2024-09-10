@@ -5,7 +5,6 @@ import { NavBar, Footer } from "../components/componentsindex";
 import { NFTMarketplaceProvider } from "../Context/NFTMarketplaceContext";
 import * as Sentry from '@sentry/react';  // For client-side
 import { Integrations } from '@sentry/tracing';
-import Hardhat from 'hardhat';
 
 
 Sentry.init({

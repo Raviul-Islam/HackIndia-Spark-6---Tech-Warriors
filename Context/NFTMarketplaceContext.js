@@ -25,7 +25,7 @@ const fetchContract = (signerorProivder) => new ethers.Contract(NFTMarketplaceAd
     try {
         const web3Modal = new web3Modal();
         const connection = await web3Modal.connect();
-        const provider = new ethers.providers.Web3Provider(connection);
+        const provider = new ethers.provider.Web3Provider(connection);
         const signer = provider.getSigner();
         const contract = fetchContract(signer);
         return contract;
